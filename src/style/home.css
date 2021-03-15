@@ -1,0 +1,78 @@
+.landing {
+    margin: 0;
+    width: auto;
+    height: 300px;
+    background-color: rgb(146, 174, 226);
+    color: black !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing > h1 {
+    margin: 0;
+    font-size: 3.9rem;
+    font-weight: 500;
+}
+
+.landing > h4 {
+    color: #252931;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+#have-fun {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.home a {
+    margin: 0;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: rgb(166, 197, 255);
+}
+
+.home a:hover {
+    text-decoration: underline;
+}
+
+.benefits {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+
+.benefits div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benefits h2 {
+    margin: 0;
+    font-size: 2.3rem;
+}
+
+.benefits p {
+    font-size: 1.5rem;
+    width: 190px;
+}
+
+.quote-container {
+    font-style: italic;
+    margin-top: 50px;
+}
+
+#quote {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.quote-container h6 {
+    font-size: 1.3rem;
+    margin-top: 3px;
+    padding-left: 12px;
+}
