@@ -4,11 +4,11 @@ Chill my NIS is the server for NIS students where they can chill, play video gam
 I made a website for this server. Don't hesitate and join if you are NIS student
 [Website](https://chillmynis.netlify.app/)
 
+![alt-text](https://github.com/EraOfCoding/Chill-my-NIS-new/src/img/websiteImage.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-![alt-text](https://github.com/EraOfCoding/Chill-my-NIS-new/src/img/websiteImage.png)
 
 ## Available Scripts
 
