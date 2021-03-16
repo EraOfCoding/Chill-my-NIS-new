@@ -1,20 +1,24 @@
 import React from 'react'
 import '../style/home.css'
+import cloudIcon from '../img/cloud.png'
 
 function Home() {
     return(
         <div className="home">
+            <img id="cloud-1" src={cloudIcon}/>
+            <img id="cloud-2" src={cloudIcon}/>
+            <img id="cloud-3" src={cloudIcon}/>
             <div className="landing">
                 <h1>Chill my NIS</h1>
-                <h4>~Chill with other NIS students~</h4>
+                <h4>~Chill in Chill my NIS dscord server~</h4>
             </div>
             <h1 id="have-fun">Ready to have fun?</h1>
             <a onClick={() => window.open('https://discord.gg/h3zyDku')}>Then join!</a>
             <div className="benefits">
                 <div>
-                    <h2>Convinience</h2>
+                    <h2>Server convinience</h2>
                     <p>
-                    All needed stuff is there. Channels like#bot-commands, #game-zone, #counting, #spam are very useful
+                    All needed stuff is there. Channels like #bot-commands, #game-zone, #counting, #spam are very useful
                     </p>
                 </div>
                 <div>

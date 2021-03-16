@@ -1,8 +1,47 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home > img {
+    position: absolute;
+    height: auto;
+    z-index: 0;
+}
+
+#cloud-1 {
+    top: 0px;
+    left: 5vw; /*100px*/
+    width: 200px;
+}
+
+#cloud-2 {
+    top: 10px;
+    left: 30vw; /*400px*/
+    width: 90px;
+}
+
+#cloud-3 {
+    top: 50px;
+    left: 70vw; /*1100px*/
+    width: 170px;
+}
+
+@media only screen and (max-width: 850px) {
+    #cloud-1, #cloud-3 {
+        display: none;
+    }
+    #cloud-2 {
+        left: 220px;
+    }
+}
+
 .landing {
     margin: 0;
-    width: auto;
+    width: 100%;
     height: 300px;
-    background-color: rgb(146, 174, 226);
+    background-color: rgb(174, 202, 255);
     color: black !important;
     display: flex;
     flex-direction: column;
@@ -10,12 +49,14 @@
 }
 
 .landing > h1 {
+    z-index: 1;
     margin: 0;
     font-size: 3.9rem;
     font-weight: 500;
 }
 
 .landing > h4 {
+    z-index: 1;
     color: #252931;
     font-weight: 400;
     font-size: 1.15rem;
@@ -41,6 +82,7 @@
     text-align: left;
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
     justify-content: space-around;
     margin-top: 90px;
 }
@@ -48,7 +90,7 @@
 .benefits div {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding-top: 20px;
 }
 
 .benefits h2 {
@@ -57,13 +99,20 @@
 }
 
 .benefits p {
+    align-self: center;
     font-size: 1.5rem;
-    width: 190px;
+    width: 210px;
 }
 
 .quote-container {
+    width: fit-content;
     font-style: italic;
-    margin-top: 50px;
+    margin-top: 75px;
+    margin-bottom: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #quote {
@@ -72,7 +121,10 @@
 }
 
 .quote-container h6 {
+    width: fit-content;
     font-size: 1.3rem;
+    align-self: flex-end;
     margin-top: 3px;
-    padding-left: 12px;
+    margin-bottom: 0;
+    padding-right: 20px;
 }

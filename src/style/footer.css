@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 90px;
+    height: 140px;
     width: auto;
     background-color: #1c1f24;
     padding: 0 30px;
@@ -10,4 +10,22 @@
 }
 .footer h3 {
     margin-bottom: 0;
+    text-align: left !important;
+}
+
+.footer a {
+    cursor: pointer;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 500px) {
+    .footer {
+        padding: 0;
+    }
+    .footer h3 {
+        padding-left: 10px;
+    }
 }
